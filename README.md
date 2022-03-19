@@ -9,7 +9,7 @@ Here are some ideas to get you started:
 - 👯 I’m looking to collaborate on ...Reasearch and Developement
 - 🤔 I’m looking for help with ...New Developer
 - 💬 Ask me about ...Nothing 
-- 📫 How to reach me: ...via my LinkedIn Profile https://www.linkedin.com/in/vishal-abhinav-98a831205/
+- 📫 How to reach me: ...via my LinkedIn Profile : https://www.linkedin.com/in/vishal-abhinav-98a831205/
 -                               Research gate : https://www.researchgate.net/profile/Vishal-Abhinav/research
 -                               Hacker Rank : https://www.hackerrank.com/Vishal_Abhinav?hr_r=1
 - 😄 Pronouns: ...BABA
