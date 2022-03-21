@@ -8,9 +8,12 @@
 - 🤔 I’m looking for help with ..**.New Developer**
 - 💬 Ask me about ...Nothing 
 - 📫 How to reach me: ...via my handle-----------------------------------------------------------------------------------------
--                               **Linkedin**    : https://www.linkedin.com/in/vishal-abhinav-98a831205/
--                               **Research gate : https://www.researchgate.net/profile/Vishal-Abhinav/research
--                               **Hacker Rank** : https://www.hackerrank.com/Vishal_Abhinav?hr_r=1
+-                               **Linkedin**    :
+-                                https://www.linkedin.com/in/vishal-abhinav-98a831205/
+-                               **Research gate : 
+-                                https://www.researchgate.net/profile/Vishal-Abhinav/research
+-                               **Hacker Rank** :
+-                                https://www.hackerrank.com/Vishal_Abhinav?hr_r=1
 - 😄 Pronouns: ...BABA
 - ⚡ Fun fact: ...I love coding and I am Half Finished
 -->
