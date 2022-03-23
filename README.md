@@ -4,7 +4,7 @@
 
 - 🔭 I’m currently working on ...As **Software Engineer**
 - 🌱 I’m currently learning ...New Skill Whichever trending
-- 👯 I’m looking to collaborate on ...**Reasearch and Developement**
+- 👯 I’m looking to collaborate on ...**Research and Development**
 - 🤔 I’m looking for help with ..**.New Developer**
 - 💬 Ask me about ...Nothing 
 - 📫 How to reach me: ...via my handle-----------------------------------------------------------------------------------------
