@@ -2,10 +2,10 @@
 
 **Vishal-Abhinav/Vishal-Abhinav** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profil
 
-- 🔭 I’m currently working on ...As **Software Engineer**
+- 🔭 I’m currently working  ...As **Software Engineer**
 - 🌱 I’m currently learning ...New Skill Whichever trending
 - 👯 I’m looking to collaborate on ...**Research and Development**
-- 🤔 I’m looking for help with ..**.New Developer**
+- 🤔 I am specialized as **Python, web development, robotics , artificial intelligence, machine learning, deep learning**
 - 💬 Ask me about ...Nothing 
 - 📫 How to reach me: ...via my handle-----------------------------------------------------------------------------------------
 -                               **Linkedin**    :
