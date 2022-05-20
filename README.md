@@ -9,7 +9,7 @@
 - 💬 Ask me about ...Nothing 
 - 📫 How to reach me: ...via my handle-----------------------------------------------------------------------------------------
 -                               **Linkedin**    :
--                                https://www.linkedin.com/in/vishal-abhinav-98a831205/
+-                                https://www.linkedin.com/in/vishal-abhinav/
 -                               **Research gate : 
 -                                https://www.researchgate.net/profile/Vishal-Abhinav/research
 -                               **Hacker Rank** :
