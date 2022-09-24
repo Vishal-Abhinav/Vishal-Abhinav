@@ -15,5 +15,5 @@
 -                               **Hacker Rank** :
 -                                https://www.hackerrank.com/Vishal_Abhinav?hr_r=1
 - 😄 Pronouns: ...BABA
-- ⚡ Fun fact: ...I love coding and I am Half Finished
+- ⚡ Fun fact: ...I am Half Finished
 -->
