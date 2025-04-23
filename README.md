@@ -1,5 +1,5 @@
 <h1 align="center">Hey there 👋, I'm <span style="color:#00bfff;">Vishal Abhinav</span></h1>
-<h3 align="center">🚀 Software Ops Enginner | DevOps Engineer | IT Engineer | Cloud Engineer | Aspiring Cloud Architect ☁️</h3>
+<h3 align="center">🚀 Software Ops Engineer | DevOps Engineer | IT Engineer | Cloud Engineer | Aspiring Cloud Architect ☁️</h3>
 
 
 
