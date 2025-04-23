@@ -1,51 +1,31 @@
-<h1 align="center">Hey there 👋, I'm <span style="color:#00bfff;">Vishal Abhinav</span></h1>
+<h1 align="center">Hey there 👋, I'm Vishal Abhinav</h1>
 <h3 align="center">🚀 Software Ops Engineer | DevOps Engineer | IT Engineer | Cloud Engineer | Aspiring Cloud Architect ☁️</h3>
 
-
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=00bfff&center=true&vCenter=true&width=480&lines=DevOps+is+my+Craft+🛠️;Cloud+is+my+Canvas+☁️;Code+is+my+Art+🎨;Automation+is+my+Language+🤖;" alt="Typing SVG" />
+</p>
 
 ---
 
 ### 🧠 My Tech Arsenal — *Deep Dive Mode ON 🔍*
 
 #### 💻 Languages & Logic – *The Syntax I Think In*
-> 🐍 **Python** | 🐹 **GoLang** | ⚡ **SQL / PLSQL / Oracle SQL** | 🐚 **Bash**  
-💬 *For scripting smart workflows, automating everything, and making logic dance.*
-
----
+> 🐍 **Python** | 🐹 **GoLang** | ⚡ **SQL / PLSQL / Oracle SQL** | 🐚 **Bash**
 
 #### 🌐 Full-Stack Fuel – *Crafting Web Wizards*
-> 🧩 **Django** | 🔥 **Flask** | 🎨 **HTML/CSS** | 📜 **YAML**  
-💡 *From backend logic to frontend aesthetics – I build seamless digital experiences.*
-
----
+> 🧩 **Django** | 🔥 **Flask** | 🎨 **HTML/CSS** | 📜 **YAML**
 
 #### 🧬 Brains Behind the Bots – *Code That Thinks*
-> 🤖 **ML Models** | 🧠 **Deep Neural Networks** | 🧩 **AI Agents** | 🔁 **CI/CD for AI**  
-🔍 *Training, deploying, and evolving algorithms into solutions.*
-
----
+> 🤖 **ML Models** | 🧠 **Deep Neural Networks** | 🧩 **AI Agents**
 
 #### 🔧 DevOps Wizardry – *Automate. Deploy. Repeat.*
-> 🐳 **Docker** | ☸️ **Kubernetes** | 🚀 **GitHub Actions** | 🧰 **Jenkins**  
-> 🔄 **GitOps** | ⚙️ **Deployment Architect**  
-🔧 *From idea to infrastructure, I keep everything running like a symphony.*
-
----
+> 🐳 **Docker** | ☸️ **Kubernetes** | 🚀 **GitHub Actions**
 
 #### ☁️ Cloud Nomad – *Scaling Skies*
-> ☁️ **AWS** | 🌩️ **OCI (Oracle Cloud)** | 🛫 **GCP**  
-☁️ *Cloud-native. Multi-cloud. Always production-ready.*
-
----
+> ☁️ **AWS** | 🌩️ **OCI (Oracle Cloud)** | 🛫 **GCP**
 
 ### 💡 Ask Me About
 > *"Nothing in particular... but everything technical. Surprise me!" 😎*
-
----
-
-### 🎭 Fun Fact
-> I’m *half-finished*... just like every line of code before it compiles.  
-> `#StillCompiling` 🌀
 
 ---
 
@@ -63,14 +43,12 @@
   </a>
 </p>
 
----
-
 ### 🙏 Maintained with ❤️ by  
 <p align="center">
   <strong>Vishal Abhinav</strong><br>
   🛠️ DevOps Engineer | Problem Solver | Cloud Whisperer
 </p>
 
-<p align="center">
-  <img src="https://www.clipartmax.com/png/middle/151-1517653_devops-architecture-devops-architecture-google-devops-architecture.png" alt="DevOps Architecture Diagram" width="300"/>
+<p align="right">
+  <img src="https://media.giphy.com/media/3o7buirYcmV5nSwIRW/giphy.gif" alt="DevOps Workflow Animation" width="400"/>
 </p>
