@@ -1,588 +1,473 @@
-# Er. Vishal Abhinav
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B1220,50:14532D,100:0EA5E9&height=220&section=header&text=Platform%20Ops%20Engineer%20%7C%20SRE&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Platform%20Architect%20%7C%20DevOps%20%7C%20System%20Design%20%7C%20Observability&descAlignY=58" alt="Header" />
-</p>
-
-<p align="center">
-  <a href="https://github.com/Vishal-Abhinav">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=22C55E&center=true&vCenter=true&width=1100&lines=Platform+Ops+Engineer;Site+Reliability+Engineer+(SRE);Platform+Architect+Focused;Python+%7C+Flask+%7C+Go+%7C+Shell+%7C+Bash;RHEL+%26+Ubuntu+Operations;OCI+Certified+%7C+AI+Certified+%7C+Multicloud+Strategy" alt="Typing Animation" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/Vishal-Abhinav">
-    <img src="https://img.shields.io/badge/GitHub-Vishal--Abhinav-181717?style=for-the-badge&logo=github" alt="GitHub" />
-  </a>
-  <a href="https://www.linkedin.com/in/vishal-abhinav/">
-    <img src="https://img.shields.io/badge/LinkedIn-Vishal%20Abhinav-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn" />
-  </a>
-  <img src="https://img.shields.io/badge/Role-Platform%20Ops%20Engineer-14532D?style=for-the-badge" alt="Platform Ops Engineer" />
-  <img src="https://img.shields.io/badge/Role-SRE-0F766E?style=for-the-badge" alt="SRE" />
-  <img src="https://img.shields.io/badge/Focus-Platform%20Architect-1D4ED8?style=for-the-badge" alt="Platform Architect" />
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Vishal-Abhinav&style=for-the-badge&color=0e75b6" alt="Profile Visitor Count" />
-  <img src="https://img.shields.io/badge/Open%20Source-Pull%20Request%20Driven-7C3AED?style=for-the-badge" alt="Pull Request Driven" />
-  <img src="https://img.shields.io/badge/Certified-OCI-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="OCI Certified" />
-  <img src="https://img.shields.io/badge/Certified-AI-2563EB?style=for-the-badge" alt="AI Certified" />
-  <img src="https://img.shields.io/badge/Strategy-Multicloud-0F766E?style=for-the-badge" alt="Multicloud Strategy" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Vishal-Abhinav&theme=algolia&no-frame=true&no-bg=true&row=1&column=6" alt="GitHub Trophies" />
-</p>
-
-## Executive Profile
-
-I am a **Platform Ops Engineer** and **Site Reliability Engineer (SRE)** with a strong **Platform Architect** mindset, focused on designing resilient systems, production-ready platforms, reliable delivery pipelines, and observability-first operations.
-
-My work combines:
-
-- System design for scale, resilience, and operational simplicity
-- DevOps execution for CI/CD, automation, release safety, and infrastructure workflows
-- Platform architecture for reusable engineering foundations
-- SRE practices for availability, reliability, incident readiness, and service health
-- Monitoring and observability for measurable production confidence
-- Cloud and multicloud strategy for adaptable infrastructure decisions
-
-This repository acts as a **professional engineering portfolio** for:
-
-- **Platform Ops Newsletter**
-- **Ops Core App Monitoring Tool Building**
-- Architecture and DevOps reference material
-- Platform engineering patterns
-- Open source contribution visibility
-- Technical leadership positioning
-
-## Role and Focus
-
-**Role:** Platform Ops Engineer / SRE  
-**Focus:** Platform Architect
-
-### Primary Engineering Identity
-
-- Platform Ops Engineer
-- Site Reliability Engineer
-- Platform Architect
-- DevOps Engineer
-- System Design Practitioner
-- Monitoring and Observability Builder
-
-## Professional Summary
-
-I build platforms and operational systems that help engineering teams move faster without compromising stability. My approach is rooted in production thinking: release safety, service resilience, operational visibility, automation, and architectural clarity.
-
-I am especially interested in:
-
-- Building scalable internal platform capabilities
-- Standardizing deployment and runtime workflows
-- Enabling observable-by-default systems
-- Strengthening repository and pull request quality
-- Improving monitoring, alerting, and operational feedback loops
-- Designing cloud-aware and multicloud-ready engineering patterns
-
-## Career Snapshot
-
-- Building platform and operations-focused engineering solutions
-- Working across development, deployment, monitoring, and reliability layers
-- Contributing through repositories, pull requests, forks, and open source participation
-- Combining software, infrastructure, and operational thinking in one engineering profile
-- Growing a portfolio across platform tooling, DevOps knowledge sharing, and developer enablement
-
-## Core Strengths
-
-- Platform operations
-- Site reliability engineering
-- System design
-- DevOps automation
-- CI/CD pipeline architecture
-- Observability engineering
-- Infrastructure standardization
-- Release governance
-- Incident readiness
-- Cloud operations
-
-## SRE Metrics and Reliability Focus
-
-- Service availability mindset
-- SLO and SLA alignment
-- Error budget awareness
-- MTTR reduction thinking
-- Change failure risk reduction
-- Deployment confidence through validation
-- Alert quality and noise reduction
-- Production health verification after release
-
-## Technology Stack
-
-### Languages
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-  <img src="https://img.shields.io/badge/Shell-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Shell" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash" />
-</p>
-
-### Operating Systems
-
-<p>
-  <img src="https://img.shields.io/badge/RHEL-EE0000?style=for-the-badge&logo=redhat&logoColor=white" alt="RHEL" />
-  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-</p>
-
-### Cloud and Infrastructure
-
-<p>
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure" />
-  <img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Google Cloud" />
-  <img src="https://img.shields.io/badge/OCI-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="OCI" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
-  <img src="https://img.shields.io/badge/OpenShift-EE0000?style=for-the-badge&logo=redhatopenshift&logoColor=white" alt="OpenShift" />
-</p>
-
-### DevOps, Automation, and Delivery
-
-<p>
-  <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" alt="Jenkins" />
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/GitLab%20CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab CI" />
-  <img src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white" alt="ArgoCD" />
-  <img src="https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform" />
-  <img src="https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white" alt="Ansible" />
-</p>
-
-### Containers and Runtime
-
-<p>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white" alt="Helm" />
-  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx" />
-</p>
-
-### Monitoring, Reliability, and Observability
-
-<p>
-  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" alt="Prometheus" />
-  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt="Grafana" />
-  <img src="https://img.shields.io/badge/Elastic-005571?style=for-the-badge&logo=elastic&logoColor=white" alt="Elastic" />
-  <img src="https://img.shields.io/badge/Datadog-632CA6?style=for-the-badge&logo=datadog&logoColor=white" alt="Datadog" />
-  <img src="https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white" alt="Splunk" />
-  <img src="https://img.shields.io/badge/OpenTelemetry-000000?style=for-the-badge&logo=opentelemetry&logoColor=white" alt="OpenTelemetry" />
-</p>
-
-### Collaboration and Engineering Workflow
-
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/Bitbucket-0052CC?style=for-the-badge&logo=bitbucket&logoColor=white" alt="Bitbucket" />
-  <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" alt="Jira" />
-  <img src="https://img.shields.io/badge/Confluence-172B4D?style=for-the-badge&logo=confluence&logoColor=white" alt="Confluence" />
-</p>
-
-## Engineering Philosophy
-
-I optimize for production-grade outcomes, not only successful deployments. That means every system should be designed with visibility, failure handling, repeatability, and operational ownership in mind.
-
-### What this means in practice
-
-- Services should be observable from day one
-- Deployments should be automated, testable, and reversible
-- Platform standards should reduce cognitive load for developers
-- Monitoring should help teams act, not just collect data
-- Pull requests should improve quality, traceability, and collaboration
-- Architecture decisions should scale with both traffic and team size
-
-## Platform and SRE Focus Areas
-
-### Platform Operations
-
-- Service deployment standardization
-- Runtime health visibility
-- Environment consistency across workloads
-- Operational guardrails for delivery teams
-- Automation for repetitive infrastructure workflows
-
-### Site Reliability Engineering
-
-- Availability and uptime mindset
-- Incident readiness and response improvement
-- Health signal validation
-- Reliability-centric monitoring patterns
-- Service ownership through measurable operational signals
-
-### Platform Architecture
-
-- Reusable internal engineering foundations
-- Shared CI/CD and observability patterns
-- Clear scaling paths for services and infrastructure
-- Architecture that supports team growth as well as traffic growth
-
-## Business and Engineering Value
-
-The kind of work represented in this portfolio drives value by:
-
-- Reducing deployment risk
-- Improving engineering velocity
-- Increasing production visibility
-- Strengthening operational confidence
-- Supporting scalable and maintainable system growth
-- Creating better collaboration between development and operations
-
-## AI for Ops
-
-I am especially interested in applying AI to operations and platform workflows in practical ways:
-
-- Incident summarization and faster triage
-- Log analysis and anomaly investigation
-- Pull request review assistance
-- Operational knowledge discovery
-- Shell and workflow automation support
-- Monitoring signal enrichment
-- Faster debugging support for delivery teams
-
-The goal is not automation for its own sake, but better reliability, faster response, and lower operational overhead.
-
-## Engineering Themes
-
-### System Design
-
-- High-availability system planning
-- Clear service boundaries and integration contracts
-- Queue-based and event-driven decoupling patterns
-- Stateless compute where appropriate
-- Cache, throughput, and latency awareness
-- Fault isolation and graceful degradation
-- Security-conscious access design
-- Capacity and performance planning
-
-### Platform Architecture
-
-- Shared engineering foundations
-- Reusable deployment templates
-- Golden path workflows for developers
-- Standardized environment and runtime patterns
-- Scalable internal tooling strategy
-- Architecture alignment across teams and services
-
-### SRE and Reliability
-
-- SLO-oriented thinking
-- Alert quality improvement
-- Incident response readiness
-- Monitoring and dashboard coverage
-- Error budget awareness
-- Health checks, synthetic checks, and post-release validation
-
-### DevOps and Delivery
-
-- CI/CD pipeline architecture
-- Infrastructure as code
-- Artifact lifecycle management
-- Security scanning in delivery flow
-- Release confidence through gates and automation
-- Rollback-aware deployment models
-
-## CI/CD Pipeline Approach
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:2C5364,100:00c6ff&height=210&section=header&text=Vishal%20Abhinav&fontSize=54&fontColor=ffffff&fontAlignY=38&desc=Platform%20Engineer%20%7C%20DevOps%20%7C%20SRE%20%7C%20Cloud-Native&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
+
+<a href="https://github.com/Vishal-Abhinav">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=900&color=00C6FF&center=true&vCenter=true&multiline=true&width=860&height=90&lines=Platform+Engineering+%7C+DevOps+%7C+SRE+%7C+Cloud-Native;Kubernetes+%E2%80%A2+OpenShift+%E2%80%A2+GitOps+%E2%80%A2+Observability+%E2%80%A2+CI%2FCD;Engineering+reliable+systems+that+survive+production" alt="Typing SVG"/>
+</a>
+
+<br/><br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Vishal_Abhinav-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vishal-abhinav)
+[![GitHub](https://img.shields.io/badge/GitHub-Vishal--Abhinav-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Vishal-Abhinav)
+[![Platform Ops](https://img.shields.io/badge/Platform_Ops_Hub-Live-2C5364?style=for-the-badge&logo=kubernetes&logoColor=00c6ff)](https://platformops.srivantechnologies.com/)
+[![Srivan Technologies](https://img.shields.io/badge/Srivan_Technologies-Engineering-0F2027?style=for-the-badge&logo=rocket&logoColor=white)](https://srivantechnologies.com/)
+
+[![Profile Views](https://komarev.com/ghpvc/?username=Vishal-Abhinav&style=for-the-badge&color=0e75b6&label=Profile+Views)](https://github.com/Vishal-Abhinav)
+[![GitHub followers](https://img.shields.io/github/followers/Vishal-Abhinav?style=for-the-badge&logo=github&color=181717)](https://github.com/Vishal-Abhinav?tab=followers)
+
+</div>
+
+---
+
+## 👋 Who I Am
+
+I'm **Vishal Abhinav** — a Platform and DevOps engineer who has built a career around one belief: **production is the only environment that matters.**
+
+Most engineers ship features. I build the systems that make shipping safe — the delivery pipelines, the observability layers, the reliability frameworks, and the platform foundations that let teams move fast without breaking things at 3 AM.
+
+My work lives at the intersection of **infrastructure and product thinking**. I don't just configure Kubernetes clusters — I design how workloads land, scale, fail gracefully, and recover. I don't just set up Grafana dashboards — I engineer what the system tells us about itself before an incident becomes an outage.
+
+What drives me day to day:
+
+- Turning **operational chaos into observable, automatable systems**
+- Building **CI/CD pipelines** that engineers trust because they've never failed them in production
+- Designing **platform layers** that make the right way the easy way for development teams
+- Bringing **AI into DevOps workflows** — not as a gimmick, but as a real force multiplier for on-call engineers and platform teams
+
+I've taken these principles and applied them to real products. **Platform Ops** is a production-grade engineering knowledge platform I built and deployed on Cloudflare Workers with OAuth, a newsletter engine, and structured content for platform and SRE engineers. **DevOps AI Agent** is my experiment at bringing operational intelligence into engineering workflows. And **OpsCore** is where I'm heading next — an observability product built for teams who are tired of alert noise and blind spots.
+
+```yaml
+identity:
+  name:        "Vishal Abhinav"
+  role:        ["Platform Engineer", "DevOps Engineer", "SRE", "Cloud-Native Engineer"]
+  builds:      ["Platform Ops", "DevOps AI Agent", "OpsCore"]
+  core_stack:  ["Kubernetes", "OpenShift", "CI/CD", "GitOps", "Prometheus", "Linux"]
+  principle:   "Observable by design. Automatable by default. Recoverable under pressure."
+```
+
+---
+
+## ⚡ At a Glance
+
+| | |
+|:---|:---|
+| 🧭 **Engineering Identity** | Platform Engineer · DevOps · SRE · Cloud-Native |
+| 🛠️ **Primary Stack** | Kubernetes · OpenShift · CI/CD · GitOps · Observability · Linux |
+| 🚀 **Built & Shipped** | [Platform Ops](https://platformops.srivantechnologies.com/) — production-deployed engineering platform on Cloudflare edge |
+| 🤖 **Experimenting** | [DevOps AI Agent](https://github.com/Vishal-Abhinav/DevOps-AI-Agent) — AI-powered operational intelligence |
+| 🧭 **Building Next** | OpsCore — observability & ops-intelligence product for SRE/platform teams |
+| 🔭 **Interested In** | Platform Eng · DevOps · SRE roles at product-first, engineering-driven companies |
+
+---
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+**Orchestration & Platform**
+
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![OpenShift](https://img.shields.io/badge/OpenShift-EE0000?style=for-the-badge&logo=redhatopenshift&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
+
+**CI/CD & GitOps**
+
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+**Cloud & Infrastructure**
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![OCI](https://img.shields.io/badge/OCI-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
+![NGINX](https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white)
+
+**Observability**
+
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![Elastic](https://img.shields.io/badge/Elastic-005571?style=for-the-badge&logo=elastic&logoColor=white)
+![Datadog](https://img.shields.io/badge/Datadog-632CA6?style=for-the-badge&logo=datadog&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=for-the-badge&logo=opentelemetry&logoColor=white)
+![Splunk](https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white)
+
+**Languages & Scripting**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![YAML](https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logo=yaml&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+
+**OS & Runtime**
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![RHEL](https://img.shields.io/badge/RHEL-EE0000?style=for-the-badge&logo=redhat&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+
+</div>
+
+---
+
+## 🏗️ Architecture Case Studies
+
+> Real architecture patterns from the systems I build and operate. Designed for production: observable, recoverable, automatable.
+
+---
+
+### Case Study 1 — Zero-Downtime Kubernetes Delivery Pipeline
+
+**Problem:** Manual deployments with no rollback strategy, inconsistent environments, and no post-release validation. Every deployment was a risk event.
+
+**Approach:** GitOps-driven delivery with automated quality gates, staged rollout, and observability validation baked into the pipeline — not bolted on after.
 
 ```mermaid
 flowchart LR
-    A["Developer Commit"] --> B["Repository"]
-    B --> C["Pull Request"]
-    C --> D["Lint"]
-    C --> E["Unit Test"]
-    C --> F["Security Scan"]
-    C --> G["Code Review"]
-    D --> H["Merge to Main"]
-    E --> H
-    F --> H
-    G --> H
-    H --> I["Build Artifact"]
-    I --> J["Container Image"]
-    J --> K["Artifact Registry"]
-    K --> L["Deploy to Staging"]
-    L --> M["Smoke Tests"]
-    M --> N["Integration Tests"]
-    N --> O["Approval Gate"]
-    O --> P["Production Rollout"]
-    P --> Q["Health Checks"]
-    Q --> R["Observability Validation"]
-    R --> S["Release Confirmation"]
+    subgraph Dev["👨‍💻 Development"]
+        A[Feature Branch] --> B[Pull Request]
+        B --> C[Code Review + CI Gates]
+    end
+    subgraph Build["🔨 Build & Validate"]
+        C --> D[GitHub Actions Trigger]
+        D --> E[Lint + Unit Tests]
+        D --> F[SAST Security Scan]
+        E --> G[Docker Build]
+        F --> G
+        G --> H[Container Registry]
+    end
+    subgraph Deploy["🚀 GitOps Deploy"]
+        H --> I[Helm Values Update]
+        I --> J[ArgoCD Sync]
+        J --> K[Staging Namespace]
+        K --> L[Smoke + Integration Tests]
+        L --> M{Gate Pass?}
+        M -- Yes --> N[Production Rollout]
+        M -- No --> O[Auto Rollback]
+    end
+    subgraph Observe["📊 Post-Deploy Observe"]
+        N --> P[Prometheus Metrics]
+        N --> Q[Loki Log Streams]
+        P --> R[Grafana Dashboards]
+        Q --> R
+        R --> S[Alertmanager]
+        S --> T[On-Call Alert]
+    end
 ```
 
-### Pipeline Goals
+**Outcome:** Deployment confidence through automation, zero-touch rollback, and live observability validation before marking a release healthy.
 
-- Faster but safer delivery
-- Clear release quality gates
-- Lower deployment risk
-- Better auditability
-- Observable production rollouts
+---
 
-## Platform Monitoring System Design
+### Case Study 2 — Full-Stack Observability Architecture (Metrics · Logs · Traces)
+
+**Problem:** Production systems running blind — no correlation between metrics spikes, log errors, and trace slowdowns. Incidents were reactive and slow to diagnose.
+
+**Approach:** Three-pillar observability with a unified collection layer, correlated storage backends, and a single Grafana pane of glass for actionable insight.
 
 ```mermaid
 flowchart TD
-    U["Users / Engineers / SREs"] --> G["Web Portal / API Gateway"]
-    G --> A["Authentication Service"]
-    G --> M["Monitoring Service"]
-    G --> N["Notification Service"]
-    G --> R["Reporting Service"]
-
-    M --> MP["Metrics Pipeline"]
-    M --> LP["Logs Pipeline"]
-    M --> TP["Tracing Pipeline"]
-
-    MP --> MS["Metrics Store"]
-    LP --> LS["Logs Store"]
-    TP --> TS["Trace Store"]
-
-    N --> E["Email"]
-    N --> C["ChatOps"]
-    N --> W["Webhook"]
-
-    R --> D["Dashboards"]
-    R --> AV["Alert Views"]
-    R --> AR["Analytics Reports"]
-
-    subgraph Shared Platform Services
-      CI["CI/CD"]
-      SE["Secrets Management"]
-      AU["Audit Logging"]
-      OB["Observability"]
-      RT["Container Runtime"]
+    subgraph Sources["📡 Signal Sources"]
+        A[Kubernetes Workloads]
+        B[Application Services]
+        C[Infrastructure Nodes]
+        D[Synthetic / External Checks]
     end
-
-    A --> SE
-    M --> OB
-    N --> AU
-    R --> RT
+    subgraph Collection["🔄 Collection & Instrumentation"]
+        E[OpenTelemetry Collector]
+        F[Node Exporter]
+        G[kube-state-metrics]
+        H[Fluent Bit Log Agent]
+    end
+    subgraph Storage["🗄️ Signal Storage"]
+        I[Prometheus — Metrics]
+        J[Loki — Logs]
+        K[Tempo — Distributed Traces]
+    end
+    subgraph Surface["📊 Insight & Action"]
+        L[Grafana — Unified Dashboards]
+        M[Alertmanager — Rule Engine]
+        N[PagerDuty / Slack — On-Call]
+        O[SLO / Error Budget Tracker]
+    end
+    A --> E
+    B --> E
+    B --> H
+    C --> F
+    C --> H
+    D --> G
+    E --> I
+    E --> J
+    E --> K
+    F --> I
+    G --> I
+    H --> J
+    I --> L
+    J --> L
+    K --> L
+    L --> M
+    L --> O
+    M --> N
 ```
 
-## DevOps and SRE Operating Model
+**Outcome:** Engineers diagnose incidents from a single correlated view — a metric spike links directly to the offending log stream and the trace that proves where latency originates.
 
-1. Developers build and push code through a repository-driven workflow.
-2. Pull requests trigger automated checks for quality, security, and correctness.
-3. Approved changes are merged and transformed into versioned artifacts.
-4. Staging deployments validate runtime behavior before production rollout.
-5. Production deployments use controlled strategies and post-release health checks.
-6. Dashboards, logs, traces, and alerts confirm service behavior in real time.
-7. SRE practices guide incident detection, response quality, and service reliability improvement.
+---
 
-## Pull Request and Repository Excellence
+### Case Study 3 — Platform Ops: Edge-Native Engineering Knowledge Platform
 
-I value engineering workflows that scale well across teams:
+**Problem:** Engineering knowledge is scattered across docs, Slack threads, and tribal memory. No structured, access-controlled platform to deliver operational knowledge to platform teams at scale.
 
-- Small and reviewable pull requests
-- Clear repository structure
-- Automated validation before merge
-- Traceable release behavior
-- Documentation paired with implementation
-- Infrastructure changes reviewed with the same rigor as application code
+**Approach:** A serverless-first, globally distributed platform on Cloudflare edge with OAuth authentication, a D1 relational store, and an automated newsletter delivery pipeline.
 
-## Profile Metrics
+```mermaid
+flowchart TD
+    subgraph Edge["⚡ Cloudflare Edge"]
+        A[Cloudflare Worker — Request Router]
+        B[OAuth Auth Layer]
+        C[Cloudflare D1 — Subscriber DB]
+        D[KV Store — Session Cache]
+    end
+    subgraph Content["📚 Content & Delivery"]
+        E[Platform Ops Knowledge Hub]
+        F[Newsletter Content Engine]
+        G[Resend Email API]
+    end
+    subgraph User["👤 Access Paths"]
+        H[Public Visitor]
+        I[Authenticated Member]
+        J[Newsletter Subscriber]
+    end
+    H --> A
+    I --> A
+    J --> A
+    A --> B
+    B -- Authorized --> E
+    B -- Subscribe --> C
+    C --> F
+    F --> G
+    G --> J
+    E --> I
+    A --> D
+```
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Vishal-Abhinav&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vishal-Abhinav&layout=compact&theme=transparent&hide_border=true" alt="Top Languages" />
-</p>
+**Stack:** Cloudflare Workers · Cloudflare D1 · OAuth · Resend · Edge KV
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Vishal-Abhinav&theme=github_dark" alt="Profile Summary" />
-</p>
+**Live →** [platformops.srivantechnologies.com](https://platformops.srivantechnologies.com/) &nbsp;|&nbsp; **Repo →** [Platform-ops-Newsletter](https://github.com/Vishal-Abhinav/Platform-ops-Newsletter)
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Vishal-Abhinav&theme=transparent&hide_border=true" alt="GitHub Streak" />
-</p>
+---
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Vishal-Abhinav&bg_color=00000000&color=22c55e&line=0ea5e9&point=1d4ed8&area=true&hide_border=true" alt="Contribution Graph" />
-</p>
+### Case Study 4 — DevOps AI Agent: Operational Intelligence Layer
 
-### Pull Request and Contribution Visibility
+**Problem:** On-call engineers spend too much time in runbooks, searching logs, and manually triaging alerts — cognitive load that slows incident response.
 
-The profile cards above surface public GitHub activity, languages, and overall contribution patterns.
+**Approach:** An AI agent that understands operational context — classifying intent, correlating signals, suggesting runbooks, and triggering remediation — reducing time-to-resolution.
 
-## Pull Request and Contribution Mindset
+```mermaid
+flowchart TD
+    subgraph Input["📥 Signal Input"]
+        A[On-Call Engineer Query]
+        B[Alert / PagerDuty Trigger]
+        C[Log Anomaly Event]
+    end
+    subgraph Agent["🤖 DevOps AI Agent Core"]
+        D[Intent Classifier]
+        E[Context Retrieval — RAG]
+        F[Reasoning Engine — LLM]
+    end
+    subgraph Actions["⚙️ Operational Actions"]
+        G[Runbook Suggestion]
+        H[Root Cause Hypothesis]
+        I[Automated Remediation Trigger]
+        J[Incident Summary Generation]
+    end
+    subgraph Integrations["🔌 Platform Integrations"]
+        K[Kubernetes API]
+        L[Prometheus / Grafana]
+        M[CI/CD Pipeline]
+        N[Slack / PagerDuty]
+    end
+    A --> D
+    B --> D
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    F --> H
+    F --> I
+    F --> J
+    I --> K
+    I --> M
+    G --> N
+    J --> N
+    H --> L
+```
 
-- Pull requests are a quality gate, not just a merge step
-- Review culture improves maintainability and shared ownership
-- Public contribution history helps demonstrate consistency and collaboration
-- Forks and open source participation strengthen engineering breadth
+**Repo →** [DevOps-AI-Agent](https://github.com/Vishal-Abhinav/DevOps-AI-Agent)
 
-## Repositories
+---
 
-Below are repository-wise cards for your public projects using the exact repository names you shared.
+### 🧭 OpsCore — Product Direction
 
-## Featured Projects
+An upcoming observability and operations-intelligence product for platform, DevOps, infrastructure, and SRE teams. Built to reduce alert noise, surface actionable health signals, and give teams operational clarity — not just more dashboards.
 
-These repositories best represent my current direction in platform operations, DevOps, portfolio engineering, and open collaboration.
+```mermaid
+flowchart LR
+    subgraph Ingest["📡 Ingest"]
+        A[Infrastructure Telemetry]
+        B[Service Health Signals]
+        C[Deployment Events]
+    end
+    subgraph Engine["🧠 OpsCore Engine"]
+        D[Signal Correlation]
+        E[Reliability Scoring]
+        F[Ops Intelligence Layer]
+    end
+    subgraph Output["📊 Output"]
+        G[Health Status View]
+        H[Risk & Anomaly Signals]
+        I[Recommended Actions]
+    end
+    A --> D
+    B --> D
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    F --> H
+    F --> I
+```
 
-### Platform Ops Newsletter
+> Part of [Srivan Technologies](https://srivantechnologies.com/) engineering product direction.
 
-- Focus: platform operations content, engineering direction, and technical portfolio presence
-- Value: showcases platform thinking, documentation, and engineering communication
-- Best for: platform engineering and DevOps positioning
-- Repository: [Platform-ops-Newsletter](https://github.com/Vishal-Abhinav/Platform-ops-Newsletter)
+---
 
-### DevOps AI Agent
+## 📊 GitHub Analytics
 
-- Focus: AI-assisted DevOps and automation direction
-- Value: aligns with current market demand around AI-enabled engineering workflows
-- Best for: AI for Ops, automation, and modern platform engineering conversations
-- Repository: [DevOps-AI-Agent](https://github.com/Vishal-Abhinav/DevOps-AI-Agent)
+<div align="center">
 
-### the_vishalabhinav
+<!-- Row 1: Stats + Top Languages -->
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Vishal-Abhinav&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&rank_icon=github" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vishal-Abhinav&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
 
-- Focus: portfolio hosting and public profile presentation
-- Value: central portfolio and personal branding repository
-- Best for: recruiter visibility and technical identity
-- Repository: [the_vishalabhinav](https://github.com/Vishal-Abhinav/the_vishalabhinav)
+<br/><br/>
 
-### node-mysql2
+<!-- Row 2: Profile Summary Cards — 4 cards -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Vishal-Abhinav&theme=tokyonight" height="160"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Vishal-Abhinav&theme=tokyonight" height="160"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Vishal-Abhinav&theme=tokyonight" height="160"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Vishal-Abhinav&theme=tokyonight&utcOffset=5.5" height="160"/>
 
-- Focus: open source fork in a widely used Node.js database ecosystem
-- Value: demonstrates engagement with real-world open source codebases
-- Best for: contribution signal and collaborative engineering credibility
-- Repository: [node-mysql2](https://github.com/Vishal-Abhinav/node-mysql2)
+<br/><br/>
 
-### Portfolio and Platform Repositories
+<!-- Row 3: Profile Details (full width) -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Vishal-Abhinav&theme=tokyonight" width="98%"/>
 
-- [the_vishalabhinav](https://github.com/Vishal-Abhinav/the_vishalabhinav)
-- [Platform-ops-Newsletter](https://github.com/Vishal-Abhinav/Platform-ops-Newsletter)
-- [DevOps-AI-Agent](https://github.com/Vishal-Abhinav/DevOps-AI-Agent)
-- [Vishal-Abhinav](https://github.com/Vishal-Abhinav/Vishal-Abhinav)
+<br/><br/>
 
-### Open Source and Forked Contributions
+<!-- Row 4: Streak Stats — using herokuapp (more stable) -->
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Vishal-Abhinav&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" width="60%"/>
 
-- [node-mysql2](https://github.com/Vishal-Abhinav/node-mysql2)
-- [devops-interview-questions-1](https://github.com/Vishal-Abhinav/devops-interview-questions-1)
-- [DevOps-Interview-Questions](https://github.com/Vishal-Abhinav/DevOps-Interview-Questions)
-- [MyDockFinder](https://github.com/Vishal-Abhinav/MyDockFinder)
+<br/><br/>
 
-### Development and Learning Repositories
+<!-- Row 5: Activity Graph -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Vishal-Abhinav&bg_color=1a1b27&color=00c6ff&line=2C5364&point=ffffff&area=true&hide_border=true" width="98%"/>
 
-- [HACKER-RANK-SQL-INT-SOLUTIONS](https://github.com/Vishal-Abhinav/HACKER-RANK-SQL-INT-SOLUTIONS)
-- [Smart-Parking-System-Using-Arduino-Over-IoT-Merge-with-DL-web-Apps](https://github.com/Vishal-Abhinav/Smart-Parking-System-Using-Arduino-Over-IoT-Merge-with-DL-web-Apps)
-- [LEARNOVATE-E-COMMERCE-](https://github.com/Vishal-Abhinav/LEARNOVATE-E-COMMERCE-)
-- [microsoft-webdevelopment-for-beginner](https://github.com/Vishal-Abhinav/microsoft-webdevelopment-for-beginner)
-- [SMART-IRRIGATION-SYSTEM](https://github.com/Vishal-Abhinav/SMART-IRRIGATION-SYSTEM)
-- [Flutter-Sample](https://github.com/Vishal-Abhinav/Flutter-Sample)
-- [task2_-neuron_square](https://github.com/Vishal-Abhinav/task2_-neuron_square)
-- [VISHAL_TASK-NEURON_SQUARE](https://github.com/Vishal-Abhinav/VISHAL_TASK-NEURON_SQUARE)
-- [vishal-abhinav-ai](https://github.com/Vishal-Abhinav/vishal-abhinav-ai)
+<br/><br/>
 
-### Repository Highlights
+<!-- Row 6: Trophies -->
+<img src="https://github-profile-trophy.vercel.app/?username=Vishal-Abhinav&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6" width="98%"/>
 
-- `the_vishalabhinav`: portfolio hosting repository
-- `Platform-ops-Newsletter`: newsletter and platform-ops focused project space
-- `DevOps-AI-Agent`: DevOps and AI-oriented repository direction
-- `node-mysql2`: forked open source contribution in the Node.js ecosystem
-- `DevOps-Interview-Questions` and `devops-interview-questions-1`: DevOps interview preparation and knowledge sharing
-- `vishal-abhinav-ai`: GitHub profile configuration repository
+</div>
 
-## Repository Strategy
+---
 
-This repository mix reflects a broad engineering profile across:
+## 🐍 Contribution Snake
 
-- Portfolio and hosting
-- Platform operations and newsletter initiatives
-- DevOps and AI experimentation
-- Open source forks and contribution paths
-- Interview preparation and knowledge repositories
-- Learning projects across Python, web, automation, IoT, and application development
+<div align="center">
 
-### Recommended Hiring View
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/Vishal-Abhinav/Vishal-Abhinav/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/Vishal-Abhinav/Vishal-Abhinav/output/github-contribution-grid-snake.svg" />
+  <img
+    alt="GitHub Contribution Snake"
+    src="https://raw.githubusercontent.com/Vishal-Abhinav/Vishal-Abhinav/output/github-contribution-grid-snake.svg"
+    width="100%" />
+</picture>
 
-For platform engineering, SRE, and DevOps roles, the strongest impression usually comes from emphasizing:
+</div>
 
-- Platform and operations repositories first
-- AI and automation initiatives second
-- Open source and contribution-based repositories third
-- Older learning repositories last
+> ⚙️ Auto-generated daily via `.github/workflows/snake.yml`. To activate: push `snake.yml`, then go to **Actions → Generate Contribution Snake → Run workflow**.
 
-This ordering keeps the profile aligned with your current professional direction.
+---
 
-## Open Source Contribution
+## 🔭 Engineering Interests
 
-I am interested in contributing to the broader engineering ecosystem through:
+- Cloud-native platform architecture and internal developer platforms
+- AI-assisted operations, incident intelligence, and log analysis
+- GitOps-driven delivery and progressive deployment strategies
+- Observability-first design: metrics, logs, traces as first-class citizens
+- SRE practices: SLOs, error budgets, incident readiness, and MTTR reduction
 
-- Pull request contributions
-- Platform and DevOps tooling improvements
-- Monitoring and observability projects
-- Documentation and architecture improvements
-- Community-driven engineering collaboration
+---
 
-## What Strengthens This Profile Further
+## 🧠 Knowledge Areas
 
-The next strongest upgrade for this portfolio is adding measurable outcomes inside featured repositories, such as:
+<table>
+<tr>
+<td valign="top" width="33%">
 
-- Reduced deployment time
-- Improved release safety
-- Better monitoring coverage
-- Faster troubleshooting
-- Cleaner pull request workflows
-- Higher automation maturity
+**Platform & Orchestration**
+- Kubernetes cluster operations
+- OpenShift workload management
+- Helm chart design and lifecycle
+- Container image and registry patterns
 
-Outcome-oriented project writeups are often more valuable than adding more tools or more badges.
+</td>
+<td valign="top" width="33%">
 
-## Certifications and Professional Direction
+**Delivery & Automation**
+- CI/CD pipeline architecture
+- GitOps workflows with ArgoCD
+- Infrastructure as code (Terraform)
+- Release governance and rollback design
 
-This profile is aligned toward engineering roles that value:
+</td>
+<td valign="top" width="33%">
 
-- Platform ownership
-- SRE execution
-- DevOps enablement
-- Cloud architecture thinking
-- Reliable systems at scale
-- Automation-first operations
+**Reliability & Observability**
+- Prometheus + Grafana stack
+- OpenTelemetry instrumentation
+- SLO/SLA design, error budgets
+- Incident response and MTTR reduction
 
-- **AI Certified**
-- **OCI Certified**
-- **Multicloud Strategy**
-- Continuous learning across cloud, platform operations, DevOps, and reliability engineering
+</td>
+</tr>
+</table>
 
-## Product Vision
+---
 
-### Platform Ops Newsletter
+## 📬 Connect
 
-A technical knowledge initiative for:
+<div align="center">
 
-- Platform engineering insights
-- DevOps maturity models
-- Monitoring strategy
-- SRE practices
-- Architecture guidance
-- Operational excellence patterns
+[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vishal-abhinav)
+[![Platform Ops](https://img.shields.io/badge/Explore_Platform_Ops-2C5364?style=for-the-badge&logo=kubernetes&logoColor=00c6ff)](https://platformops.srivantechnologies.com/)
+[![GitHub](https://img.shields.io/badge/Browse_Repositories-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Vishal-Abhinav?tab=repositories)
+[![Srivan Technologies](https://img.shields.io/badge/Srivan_Technologies-0F2027?style=for-the-badge&logo=rocket&logoColor=white)](https://srivantechnologies.com/)
 
-### Ops Core App Monitoring Tool Building
+<br/>
 
-A product direction focused on:
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,50:2C5364,100:0F2027&height=110&section=footer" width="100%"/>
 
-- Centralized application monitoring
-- Metrics, logs, and traces correlation
-- Alert intelligence and service visibility
-- Reliability engineering workflows
-- Operations dashboards and reporting
-- Scalable platform observability
-
-## Connect
-
-- GitHub: [Vishal-Abhinav](https://github.com/Vishal-Abhinav)
-- LinkedIn: [Vishal Abhinav](https://www.linkedin.com/in/vishal-abhinav/)
-
-## Collaboration
-
-I am open to collaborating on:
-
-- Platform engineering initiatives
-- SRE and observability programs
-- DevOps transformation
-- System design reviews
-- Cloud and multicloud operating models
-- Open source infrastructure and automation work
+</div>
