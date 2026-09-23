@@ -1,0 +1,716 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Vishal Abhinav - Platform Engineer, DevOps, SRE, and cloud-native engineer.">
+  <title>Vishal Abhinav | Platform Engineer</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #071116;
+      --panel: #0f1d24;
+      --panel-2: #142831;
+      --text: #eef7f8;
+      --muted: #a9bdc3;
+      --cyan: #00c6ff;
+      --teal: #2bd4a8;
+      --rose: #ff5c7a;
+      --amber: #ffc857;
+      --line: rgba(255, 255, 255, 0.12);
+      --shadow: 0 20px 55px rgba(0, 0, 0, 0.35);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at 10% 0%, rgba(0, 198, 255, 0.16), transparent 28rem),
+        radial-gradient(circle at 90% 8%, rgba(255, 92, 122, 0.12), transparent 24rem),
+        linear-gradient(180deg, #071116 0%, #0b171d 46%, #071116 100%);
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.65;
+    }
+
+    a {
+      color: var(--cyan);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    .hero {
+      overflow: hidden;
+      text-align: center;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(135deg, rgba(0, 198, 255, 0.08), rgba(255, 92, 122, 0.08));
+    }
+
+    .hero img {
+      display: block;
+    }
+
+    .typing {
+      display: block;
+      width: min(860px, calc(100vw - 2rem));
+      margin: 1.5rem auto 0;
+    }
+
+    .wrap {
+      width: min(1160px, calc(100% - 2rem));
+      margin: 0 auto;
+      padding: 2rem 0 4rem;
+    }
+
+    .badge-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.7rem;
+      margin: 1.5rem 0 0;
+    }
+
+    .section {
+      padding: 3rem 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .section:last-child {
+      border-bottom: 0;
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin: 0 0 1rem;
+      line-height: 1.15;
+    }
+
+    h2 {
+      font-size: clamp(1.7rem, 2.4vw, 2.45rem);
+      letter-spacing: 0;
+    }
+
+    h3 {
+      color: #ffffff;
+      font-size: 1.25rem;
+    }
+
+    p {
+      margin: 0 0 1rem;
+      color: var(--muted);
+    }
+
+    strong {
+      color: #ffffff;
+    }
+
+    .lead {
+      max-width: 900px;
+      font-size: 1.08rem;
+    }
+
+    .grid {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .grid.two {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .grid.three {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .panel {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: linear-gradient(180deg, rgba(20, 40, 49, 0.96), rgba(12, 25, 31, 0.96));
+      box-shadow: var(--shadow);
+      padding: 1.15rem;
+    }
+
+    .panel.accent {
+      border-color: rgba(0, 198, 255, 0.45);
+    }
+
+    .glance {
+      display: grid;
+      grid-template-columns: minmax(180px, 0.7fr) minmax(0, 1.3fr);
+      gap: 0;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+    }
+
+    .glance div {
+      padding: 0.9rem 1rem;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .glance div:nth-child(odd) {
+      color: #ffffff;
+      font-weight: 700;
+      background: rgba(255, 255, 255, 0.04);
+    }
+
+    .glance div:nth-last-child(-n + 2) {
+      border-bottom: 0;
+    }
+
+    .code {
+      overflow-x: auto;
+      border: 1px solid rgba(0, 198, 255, 0.28);
+      border-radius: 8px;
+      background: #061015;
+      color: #dff9ff;
+      padding: 1rem;
+      font-family: "Fira Code", Consolas, "Liberation Mono", monospace;
+      font-size: 0.9rem;
+      line-height: 1.55;
+    }
+
+    .stack-group {
+      margin: 1.2rem 0 1.7rem;
+      text-align: center;
+    }
+
+    .stack-group h3 {
+      color: var(--teal);
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .stack-group img {
+      margin: 0.25rem;
+      vertical-align: middle;
+    }
+
+    .case-study {
+      margin: 1.5rem 0;
+      padding: 1.25rem;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(15, 29, 36, 0.86);
+    }
+
+    .case-study h3 {
+      color: var(--cyan);
+    }
+
+    .mermaid {
+      margin: 1rem 0;
+      padding: 1rem;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #f6fbfc;
+      color: #0b171d;
+      overflow: auto;
+    }
+
+    .analytics {
+      text-align: center;
+    }
+
+    .analytics img {
+      margin: 0.45rem;
+      border-radius: 8px;
+      vertical-align: middle;
+    }
+
+    .snake {
+      padding: 1rem;
+      text-align: center;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+    }
+
+    ul {
+      margin: 0.5rem 0 0;
+      padding-left: 1.25rem;
+      color: var(--muted);
+    }
+
+    li {
+      margin: 0.45rem 0;
+    }
+
+    .footer {
+      padding: 2rem 0 0;
+      text-align: center;
+    }
+
+    .note {
+      border-left: 3px solid var(--amber);
+      padding-left: 1rem;
+      color: #d9c99b;
+    }
+
+    @media (max-width: 820px) {
+      .grid.two,
+      .grid.three {
+        grid-template-columns: 1fr;
+      }
+
+      .glance {
+        grid-template-columns: 1fr;
+      }
+
+      .glance div:nth-child(odd) {
+        border-bottom: 0;
+        padding-bottom: 0.35rem;
+      }
+
+      .glance div:nth-child(even) {
+        padding-top: 0.35rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0F2027,50:2C5364,100:00c6ff&amp;height=210&amp;section=header&amp;text=Vishal%20Abhinav&amp;fontSize=54&amp;fontColor=ffffff&amp;fontAlignY=38&amp;desc=Platform%20Engineer%20%7C%20DevOps%20%7C%20SRE%20%7C%20Cloud-Native&amp;descAlignY=58&amp;descSize=18&amp;animation=fadeIn" alt="Vishal Abhinav - Platform Engineer, DevOps, SRE, Cloud-Native">
+    <a href="https://github.com/Vishal-Abhinav" aria-label="Vishal Abhinav on GitHub">
+      <img class="typing" src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=20&amp;duration=3000&amp;pause=900&amp;color=00C6FF&amp;center=true&amp;vCenter=true&amp;multiline=true&amp;width=860&amp;height=90&amp;lines=Platform+Engineering+%7C+DevOps+%7C+SRE+%7C+Cloud-Native;Kubernetes+%E2%80%A2+OpenShift+%E2%80%A2+GitOps+%E2%80%A2+Observability+%E2%80%A2+CI%2FCD;Engineering+reliable+systems+that+survive+production" alt="Platform Engineering, DevOps, SRE, Cloud-Native">
+    </a>
+    <nav class="badge-row" aria-label="Profile links">
+      <a href="https://www.linkedin.com/in/vishal-abhinav"><img src="https://img.shields.io/badge/LinkedIn-Vishal_Abhinav-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn"></a>
+      <a href="https://github.com/Vishal-Abhinav"><img src="https://img.shields.io/badge/GitHub-Vishal--Abhinav-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub"></a>
+      <a href="https://platformops.srivantechnologies.com/"><img src="https://img.shields.io/badge/Platform_Ops_Hub-Live-2C5364?style=for-the-badge&amp;logo=kubernetes&amp;logoColor=00c6ff" alt="Platform Ops Hub"></a>
+      <a href="https://srivantechnologies.com/"><img src="https://img.shields.io/badge/Srivan_Technologies-Engineering-0F2027?style=for-the-badge&amp;logo=rocket&amp;logoColor=white" alt="Srivan Technologies"></a>
+      <a href="https://github.com/Vishal-Abhinav"><img src="https://komarev.com/ghpvc/?username=Vishal-Abhinav&amp;style=for-the-badge&amp;color=0e75b6&amp;label=Profile+Views" alt="Profile Views"></a>
+      <a href="https://github.com/Vishal-Abhinav?tab=followers"><img src="https://img.shields.io/github/followers/Vishal-Abhinav?style=for-the-badge&amp;logo=github&amp;color=181717" alt="GitHub followers"></a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section class="section">
+      <h2>Who I Am</h2>
+      <p class="lead">I'm <strong>Vishal Abhinav</strong> - a Platform and DevOps engineer who has built a career around one belief: <strong>production is the only environment that matters.</strong></p>
+      <p>Most engineers ship features. I build the systems that make shipping safe - delivery pipelines, observability layers, reliability frameworks, and platform foundations that let teams move fast without breaking things at 3 AM.</p>
+      <p>My work lives at the intersection of <strong>infrastructure and product thinking</strong>. I do not just configure Kubernetes clusters - I design how workloads land, scale, fail gracefully, and recover. I do not just set up Grafana dashboards - I engineer what the system tells us about itself before an incident becomes an outage.</p>
+      <div class="grid two">
+        <div class="panel accent">
+          <h3>What Drives Me</h3>
+          <ul>
+            <li>Turning operational chaos into observable, automatable systems</li>
+            <li>Building CI/CD pipelines that engineers trust</li>
+            <li>Designing platform layers that make the right way the easy way</li>
+            <li>Bringing AI into DevOps workflows as a force multiplier</li>
+          </ul>
+        </div>
+        <pre class="code"><code>identity:
+  name:        "Vishal Abhinav"
+  role:        ["Platform Engineer", "DevOps Engineer", "SRE", "Cloud-Native Engineer"]
+  builds:      ["Platform Ops", "DevOps AI Agent", "OpsCore"]
+  core_stack:  ["Kubernetes", "OpenShift", "CI/CD", "GitOps", "Prometheus", "Linux"]
+  principle:   "Observable by design. Automatable by default. Recoverable under pressure."</code></pre>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>At a Glance</h2>
+      <div class="glance">
+        <div>Engineering Identity</div>
+        <div>Platform Engineer · DevOps · SRE · Cloud-Native</div>
+        <div>Primary Stack</div>
+        <div>Kubernetes · OpenShift · CI/CD · GitOps · Observability · Linux</div>
+        <div>Built &amp; Shipped</div>
+        <div><a href="https://platformops.srivantechnologies.com/">Platform Ops</a> - production-deployed engineering platform on Cloudflare edge</div>
+        <div>Experimenting</div>
+        <div><a href="https://github.com/Vishal-Abhinav/DevOps-AI-Agent">DevOps AI Agent</a> - AI-powered operational intelligence</div>
+        <div>Building Next</div>
+        <div>OpsCore - observability and ops-intelligence product for SRE/platform teams</div>
+        <div>Interested In</div>
+        <div>Platform Engineering · DevOps · SRE roles at product-first, engineering-driven companies</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Tech Stack</h2>
+      <div class="stack-group">
+        <h3>Orchestration &amp; Platform</h3>
+        <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&amp;logo=kubernetes&amp;logoColor=white" alt="Kubernetes">
+        <img src="https://img.shields.io/badge/OpenShift-EE0000?style=for-the-badge&amp;logo=redhatopenshift&amp;logoColor=white" alt="OpenShift">
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&amp;logo=docker&amp;logoColor=white" alt="Docker">
+        <img src="https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&amp;logo=helm&amp;logoColor=white" alt="Helm">
+      </div>
+      <div class="stack-group">
+        <h3>CI/CD &amp; GitOps</h3>
+        <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&amp;logo=githubactions&amp;logoColor=white" alt="GitHub Actions">
+        <img src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=for-the-badge&amp;logo=argo&amp;logoColor=white" alt="ArgoCD">
+        <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&amp;logo=jenkins&amp;logoColor=white" alt="Jenkins">
+        <img src="https://img.shields.io/badge/GitLab_CI-FC6D26?style=for-the-badge&amp;logo=gitlab&amp;logoColor=white" alt="GitLab CI">
+        <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&amp;logo=git&amp;logoColor=white" alt="Git">
+      </div>
+      <div class="stack-group">
+        <h3>Cloud &amp; Infrastructure</h3>
+        <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&amp;logo=amazonwebservices&amp;logoColor=white" alt="AWS">
+        <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&amp;logo=microsoftazure&amp;logoColor=white" alt="Azure">
+        <img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&amp;logo=googlecloud&amp;logoColor=white" alt="GCP">
+        <img src="https://img.shields.io/badge/OCI-F80000?style=for-the-badge&amp;logo=oracle&amp;logoColor=white" alt="OCI">
+        <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&amp;logo=terraform&amp;logoColor=white" alt="Terraform">
+        <img src="https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&amp;logo=ansible&amp;logoColor=white" alt="Ansible">
+        <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&amp;logo=cloudflare&amp;logoColor=white" alt="Cloudflare">
+        <img src="https://img.shields.io/badge/NGINX-009639?style=for-the-badge&amp;logo=nginx&amp;logoColor=white" alt="NGINX">
+      </div>
+      <div class="stack-group">
+        <h3>Observability</h3>
+        <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&amp;logo=prometheus&amp;logoColor=white" alt="Prometheus">
+        <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&amp;logo=grafana&amp;logoColor=white" alt="Grafana">
+        <img src="https://img.shields.io/badge/Elastic-005571?style=for-the-badge&amp;logo=elastic&amp;logoColor=white" alt="Elastic">
+        <img src="https://img.shields.io/badge/Datadog-632CA6?style=for-the-badge&amp;logo=datadog&amp;logoColor=white" alt="Datadog">
+        <img src="https://img.shields.io/badge/OpenTelemetry-000000?style=for-the-badge&amp;logo=opentelemetry&amp;logoColor=white" alt="OpenTelemetry">
+        <img src="https://img.shields.io/badge/Splunk-000000?style=for-the-badge&amp;logo=splunk&amp;logoColor=white" alt="Splunk">
+      </div>
+      <div class="stack-group">
+        <h3>Languages &amp; Runtime</h3>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python">
+        <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&amp;logo=gnubash&amp;logoColor=white" alt="Bash">
+        <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&amp;logo=go&amp;logoColor=white" alt="Go">
+        <img src="https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&amp;logo=yaml&amp;logoColor=white" alt="YAML">
+        <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&amp;logo=postgresql&amp;logoColor=white" alt="SQL">
+        <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&amp;logo=linux&amp;logoColor=black" alt="Linux">
+        <img src="https://img.shields.io/badge/RHEL-EE0000?style=for-the-badge&amp;logo=redhat&amp;logoColor=white" alt="RHEL">
+        <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&amp;logo=ubuntu&amp;logoColor=white" alt="Ubuntu">
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Architecture Case Studies</h2>
+      <p class="lead">Real architecture patterns from the systems I build and operate. Designed for production: observable, recoverable, automatable.</p>
+
+      <article class="case-study">
+        <h3>Case Study 1 - Zero-Downtime Kubernetes Delivery Pipeline</h3>
+        <p><strong>Problem:</strong> Manual deployments with no rollback strategy, inconsistent environments, and no post-release validation. Every deployment was a risk event.</p>
+        <p><strong>Approach:</strong> GitOps-driven delivery with automated quality gates, staged rollout, and observability validation baked into the pipeline.</p>
+        <pre class="mermaid">
+flowchart LR
+    subgraph Dev["Development"]
+        A[Feature Branch] --> B[Pull Request]
+        B --> C[Code Review + CI Gates]
+    end
+    subgraph Build["Build & Validate"]
+        C --> D[GitHub Actions Trigger]
+        D --> E[Lint + Unit Tests]
+        D --> F[SAST Security Scan]
+        E --> G[Docker Build]
+        F --> G
+        G --> H[Container Registry]
+    end
+    subgraph Deploy["GitOps Deploy"]
+        H --> I[Helm Values Update]
+        I --> J[ArgoCD Sync]
+        J --> K[Staging Namespace]
+        K --> L[Smoke + Integration Tests]
+        L --> M{Gate Pass?}
+        M -- Yes --> N[Production Rollout]
+        M -- No --> O[Auto Rollback]
+    end
+    subgraph Observe["Post-Deploy Observe"]
+        N --> P[Prometheus Metrics]
+        N --> Q[Loki Log Streams]
+        P --> R[Grafana Dashboards]
+        Q --> R
+        R --> S[Alertmanager]
+        S --> T[On-Call Alert]
+    end
+        </pre>
+        <p><strong>Outcome:</strong> Deployment confidence through automation, zero-touch rollback, and live observability validation before marking a release healthy.</p>
+      </article>
+
+      <article class="case-study">
+        <h3>Case Study 2 - Full-Stack Observability Architecture</h3>
+        <p><strong>Problem:</strong> Production systems running blind - no correlation between metrics spikes, log errors, and trace slowdowns. Incidents were reactive and slow to diagnose.</p>
+        <p><strong>Approach:</strong> Three-pillar observability with a unified collection layer, correlated storage backends, and a single Grafana pane of glass.</p>
+        <pre class="mermaid">
+flowchart TD
+    subgraph Sources["Signal Sources"]
+        A[Kubernetes Workloads]
+        B[Application Services]
+        C[Infrastructure Nodes]
+        D[Synthetic / External Checks]
+    end
+    subgraph Collection["Collection & Instrumentation"]
+        E[OpenTelemetry Collector]
+        F[Node Exporter]
+        G[kube-state-metrics]
+        H[Fluent Bit Log Agent]
+    end
+    subgraph Storage["Signal Storage"]
+        I[Prometheus - Metrics]
+        J[Loki - Logs]
+        K[Tempo - Distributed Traces]
+    end
+    subgraph Surface["Insight & Action"]
+        L[Grafana - Unified Dashboards]
+        M[Alertmanager - Rule Engine]
+        N[PagerDuty / Slack - On-Call]
+        O[SLO / Error Budget Tracker]
+    end
+    A --> E
+    B --> E
+    B --> H
+    C --> F
+    C --> H
+    D --> G
+    E --> I
+    E --> J
+    E --> K
+    F --> I
+    G --> I
+    H --> J
+    I --> L
+    J --> L
+    K --> L
+    L --> M
+    L --> O
+    M --> N
+        </pre>
+        <p><strong>Outcome:</strong> Engineers diagnose incidents from a single correlated view - a metric spike links directly to the offending log stream and trace.</p>
+      </article>
+
+      <article class="case-study">
+        <h3>Case Study 3 - Platform Ops: Edge-Native Engineering Knowledge Platform</h3>
+        <p><strong>Problem:</strong> Engineering knowledge is scattered across docs, Slack threads, and tribal memory.</p>
+        <p><strong>Approach:</strong> A serverless-first platform on Cloudflare edge with OAuth authentication, D1 storage, and automated newsletter delivery.</p>
+        <pre class="mermaid">
+flowchart TD
+    subgraph Edge["Cloudflare Edge"]
+        A[Cloudflare Worker - Request Router]
+        B[OAuth Auth Layer]
+        C[Cloudflare D1 - Subscriber DB]
+        D[KV Store - Session Cache]
+    end
+    subgraph Content["Content & Delivery"]
+        E[Platform Ops Knowledge Hub]
+        F[Newsletter Content Engine]
+        G[Resend Email API]
+    end
+    subgraph User["Access Paths"]
+        H[Public Visitor]
+        I[Authenticated Member]
+        J[Newsletter Subscriber]
+    end
+    H --> A
+    I --> A
+    J --> A
+    A --> B
+    B -- Authorized --> E
+    B -- Subscribe --> C
+    C --> F
+    F --> G
+    G --> J
+    E --> I
+    A --> D
+        </pre>
+        <p><strong>Stack:</strong> Cloudflare Workers · Cloudflare D1 · OAuth · Resend · Edge KV</p>
+        <p><a href="https://platformops.srivantechnologies.com/">Live Platform Ops</a> · <a href="https://github.com/Vishal-Abhinav/Platform-ops-Newsletter">Platform-ops-Newsletter Repo</a></p>
+      </article>
+
+      <article class="case-study">
+        <h3>Case Study 4 - DevOps AI Agent: Operational Intelligence Layer</h3>
+        <p><strong>Problem:</strong> On-call engineers spend too much time in runbooks, searching logs, and manually triaging alerts.</p>
+        <p><strong>Approach:</strong> An AI agent that classifies intent, correlates signals, suggests runbooks, and triggers remediation.</p>
+        <pre class="mermaid">
+flowchart TD
+    subgraph Input["Signal Input"]
+        A[On-Call Engineer Query]
+        B[Alert / PagerDuty Trigger]
+        C[Log Anomaly Event]
+    end
+    subgraph Agent["DevOps AI Agent Core"]
+        D[Intent Classifier]
+        E[Context Retrieval - RAG]
+        F[Reasoning Engine - LLM]
+    end
+    subgraph Actions["Operational Actions"]
+        G[Runbook Suggestion]
+        H[Root Cause Hypothesis]
+        I[Automated Remediation Trigger]
+        J[Incident Summary Generation]
+    end
+    subgraph Integrations["Platform Integrations"]
+        K[Kubernetes API]
+        L[Prometheus / Grafana]
+        M[CI/CD Pipeline]
+        N[Slack / PagerDuty]
+    end
+    A --> D
+    B --> D
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    F --> H
+    F --> I
+    F --> J
+    I --> K
+    I --> M
+    G --> N
+    J --> N
+    H --> L
+        </pre>
+        <p><a href="https://github.com/Vishal-Abhinav/DevOps-AI-Agent">DevOps-AI-Agent Repo</a></p>
+      </article>
+
+      <article class="case-study">
+        <h3>OpsCore - Product Direction</h3>
+        <p>An upcoming observability and operations-intelligence product for platform, DevOps, infrastructure, and SRE teams. Built to reduce alert noise, surface actionable health signals, and give teams operational clarity - not just more dashboards.</p>
+        <pre class="mermaid">
+flowchart LR
+    subgraph Ingest["Ingest"]
+        A[Infrastructure Telemetry]
+        B[Service Health Signals]
+        C[Deployment Events]
+    end
+    subgraph Engine["OpsCore Engine"]
+        D[Signal Correlation]
+        E[Reliability Scoring]
+        F[Ops Intelligence Layer]
+    end
+    subgraph Output["Output"]
+        G[Health Status View]
+        H[Risk & Anomaly Signals]
+        I[Recommended Actions]
+    end
+    A --> D
+    B --> D
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    F --> H
+    F --> I
+        </pre>
+        <p class="note">Part of <a href="https://srivantechnologies.com/">Srivan Technologies</a> engineering product direction.</p>
+      </article>
+    </section>
+
+    <section class="section analytics">
+      <h2>GitHub Analytics</h2>
+      <img height="170" src="https://github-readme-stats.vercel.app/api?username=Vishal-Abhinav&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;include_all_commits=true&amp;rank_icon=github" alt="GitHub stats">
+      <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vishal-Abhinav&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true&amp;langs_count=8" alt="Top languages">
+      <br>
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Vishal-Abhinav&amp;theme=tokyonight" height="160" alt="Repos per language">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Vishal-Abhinav&amp;theme=tokyonight" height="160" alt="Most committed language">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Vishal-Abhinav&amp;theme=tokyonight" height="160" alt="Stats">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Vishal-Abhinav&amp;theme=tokyonight&amp;utcOffset=5.5" height="160" alt="Productive time">
+      <br>
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Vishal-Abhinav&amp;theme=tokyonight" width="98%" alt="Profile details">
+      <br>
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Vishal-Abhinav&amp;theme=tokyonight&amp;hide_border=true&amp;date_format=M%20j%5B%2C%20Y%5D" width="60%" alt="GitHub streak">
+      <br>
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=Vishal-Abhinav&amp;bg_color=1a1b27&amp;color=00c6ff&amp;line=2C5364&amp;point=ffffff&amp;area=true&amp;hide_border=true" width="98%" alt="Activity graph">
+      <br>
+      <img src="https://github-profile-trophy.vercel.app/?username=Vishal-Abhinav&amp;theme=tokyonight&amp;no-frame=true&amp;no-bg=true&amp;row=1&amp;column=6" width="98%" alt="GitHub trophies">
+    </section>
+
+    <section class="section">
+      <h2>Contribution Snake</h2>
+      <div class="snake">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vishal-Abhinav/Vishal-Abhinav/output/github-contribution-grid-snake-dark.svg">
+          <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Vishal-Abhinav/Vishal-Abhinav/output/github-contribution-grid-snake.svg">
+          <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/Vishal-Abhinav/Vishal-Abhinav/output/github-contribution-grid-snake.svg" width="100%">
+        </picture>
+      </div>
+      <p class="note">Auto-generated daily via <code>.github/workflows/snake.yml</code>. To activate: push <code>snake.yml</code>, then go to Actions → Generate Contribution Snake → Run workflow.</p>
+    </section>
+
+    <section class="section">
+      <h2>Engineering Interests</h2>
+      <div class="grid two">
+        <div class="panel">
+          <ul>
+            <li>Cloud-native platform architecture and internal developer platforms</li>
+            <li>AI-assisted operations, incident intelligence, and log analysis</li>
+            <li>GitOps-driven delivery and progressive deployment strategies</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <ul>
+            <li>Observability-first design: metrics, logs, and traces as first-class citizens</li>
+            <li>SRE practices: SLOs, error budgets, incident readiness, and MTTR reduction</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Knowledge Areas</h2>
+      <div class="grid three">
+        <div class="panel">
+          <h3>Platform &amp; Orchestration</h3>
+          <ul>
+            <li>Kubernetes cluster operations</li>
+            <li>OpenShift workload management</li>
+            <li>Helm chart design and lifecycle</li>
+            <li>Container image and registry patterns</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>Delivery &amp; Automation</h3>
+          <ul>
+            <li>CI/CD pipeline architecture</li>
+            <li>GitOps workflows with ArgoCD</li>
+            <li>Infrastructure as code with Terraform</li>
+            <li>Release governance and rollback design</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>Reliability &amp; Observability</h3>
+          <ul>
+            <li>Prometheus and Grafana stack</li>
+            <li>OpenTelemetry instrumentation</li>
+            <li>SLO/SLA design and error budgets</li>
+            <li>Incident response and MTTR reduction</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section footer">
+      <h2>Connect</h2>
+      <div class="badge-row">
+        <a href="https://www.linkedin.com/in/vishal-abhinav"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="Connect on LinkedIn"></a>
+        <a href="https://platformops.srivantechnologies.com/"><img src="https://img.shields.io/badge/Explore_Platform_Ops-2C5364?style=for-the-badge&amp;logo=kubernetes&amp;logoColor=00c6ff" alt="Explore Platform Ops"></a>
+        <a href="https://github.com/Vishal-Abhinav?tab=repositories"><img src="https://img.shields.io/badge/Browse_Repositories-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Browse repositories"></a>
+        <a href="https://srivantechnologies.com/"><img src="https://img.shields.io/badge/Srivan_Technologies-0F2027?style=for-the-badge&amp;logo=rocket&amp;logoColor=white" alt="Srivan Technologies"></a>
+      </div>
+      <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:00c6ff,50:2C5364,100:0F2027&amp;height=110&amp;section=footer" alt="" width="100%">
+    </section>
+  </main>
+
+  <script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: "base",
+      themeVariables: {
+        primaryColor: "#e9f8fb",
+        primaryTextColor: "#071116",
+        primaryBorderColor: "#2C5364",
+        lineColor: "#2C5364",
+        secondaryColor: "#dff7ff",
+        tertiaryColor: "#fff5df",
+        fontFamily: "Inter, system-ui, sans-serif"
+      }
+    });
+  </script>
+</body>
+</html>
